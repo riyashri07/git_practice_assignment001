@@ -2,11 +2,11 @@ function check_prime(num){
 
 let factor=0;
 for(let i=1; i<=num; i++){
-if(num%1==0){
-count++;
+if(num%i==0){
+factor++;
 }
 }
-if(factor==0){
+if(factor==2){
 return true;
 }else{
 return false;
